@@ -11,10 +11,20 @@
     <div>
         <form action="https://www.google.com.br/search" method="get">
             <label for="q">Não Econtrou? Pesquise Aqui</label>
-            <input type="text" id="q" name="q" placeholder="Digite Aqui">
+            <input type="text" id="q" name="q" placeholder="Digite Aqui" required>
             <input type="submit" value="Go">
-            
         </form>
+    </div>
+    <hr>
+    <div>
+        <input list="marcas">
+
+        <datalist id="marcas">
+            <option value="Gucci">
+            <option value="Adidas">
+            <option value="Nike">        
+
+        </datalist>
     </div>
 </body>
 </html>
