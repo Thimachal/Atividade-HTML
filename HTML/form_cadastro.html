@@ -24,16 +24,27 @@
     <div>
         <label for="dataNascimento">Data de Nascimento: </label>
         <input type="date" id="dataNascimento" name="dataNascimento" required>
-        
+
         <label for="foto">- Foto: </label>
         <input type="file" id="foto" name="foto" required>
     </div>
     <br>
-    <div>
-        <label for="dataNascimento">Data de Nascimento: </label>
-        <input type="date" id="dataNascimento" name="dataNascimento" required>
-        <label for="foto">- Foto: </label>
-        <input type="file" id="foto" name="foto" required>
+
+   <div>
+        <label for="nacionalidade">Nacionalidade: </label>
+        <input list="nacionalidade">
+        
+        <datalist id="nacionalidade">
+            <option value="Brasileiro">
+            <option value="Argentino">
+            <option value="Chileno">
+        </datalist>
+
+        
+        <label for="genero">- Genero: F</label>
+        <input type="radio"  name="genero" value="F"> M
+        <input type="radio"  name="genero" value="M"> Other
+        <input type="radio"  name="genero" value="other">
     </div>
 
 
