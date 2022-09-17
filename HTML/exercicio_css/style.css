@@ -15,5 +15,7 @@ h1{
 }
 
 .post-container div.post-container{
-    
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
