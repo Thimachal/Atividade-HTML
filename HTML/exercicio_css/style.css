@@ -19,3 +19,8 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
+
+.post-container .post{
+    margin-left: 50px;
+    margin-top: 20px;
+}
